@@ -169,7 +169,12 @@ async function addingAllPosts(){
     }
 }
 
+// window.addEventListener('load', function () {
+//
+// });
 window.addEventListener('load', function () {
+
+
     const savePostButton = document.getElementById("btnSubmit");
 
     savePostButton.addEventListener("click", function() {
@@ -182,7 +187,20 @@ window.addEventListener('load', function () {
         }).then(r => r.json()).then(data => {
             window.location.href = "http://localhost:8000/index";
         });
+
+
+
     });
+
+        if (localStorage.getItem('username') == null) {
+            hideSplashScreen();
+        } else{
+            showSplashScreen();
+        }
+
+
+        console.log(localStorage)
+
 });
 
 
@@ -204,4 +222,4 @@ for(let i = 0; i < postss.length; i++) {
         })
     }
 
-};
+}

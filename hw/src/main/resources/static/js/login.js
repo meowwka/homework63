@@ -14,6 +14,7 @@ window.addEventListener('load', function () {
         saveUser(user);
         fetchAuthorised(BASE_URL + '/getPosts')
     }
+    console.log(localStorage);
 
     function fetchAuthorised(url, options) {
         const settings = options || {}

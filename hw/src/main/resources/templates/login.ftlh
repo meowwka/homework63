@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>Lesson 62. Registration</title>
+        <title>Microgram</title>
         <link rel="stylesheet" href="/css/styles.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
@@ -18,7 +18,7 @@
                         <h3>Вход</h3>
                         <input type="text" name="username" class="form-control mb-1" placeholder="Логин">
                         <input type="password" name="password" class="form-control mb-1" placeholder="Пароль">
-                        <button type="submit" class="btn btn-outline-primary btn-block">Войти</button>
+                        <button type="submit" onClick='location.href="http://localhost:8000/index"' class="btn btn-outline-primary btn-block">Войти</button>
                     </form>
                 </div>
             </div>

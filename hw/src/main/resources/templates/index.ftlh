@@ -30,9 +30,10 @@
     <section id="page-splash" class="page-splash">
         <div class="card" id="registration-form">
             <div class="card-body">
-                <h3 class="h3">Зарегистрируйтесь</h3>
+                <button class="h3" onClick='location.href="http://localhost:8000/registration"'>Зарегистрируйтесь</button>
             </div>
-            <button onclick="hideSplashScreen()" id="login_button" type="button" class="btn btn-secondary" style="padding: 15px;"><h4> Войти</h4> </button>
+            <button
+                    id="login_button" type="button"  class="btn btn-secondary" style="padding: 15px;" ><h4> Войти</h4> </button>
 
         </div>
     </section>
