@@ -173,7 +173,16 @@ async function addingAllPosts(){
 //
 // });
 window.addEventListener('load', function () {
+    // let log = document.getElementById('login_button');
+    // log.addEventListener('click', function () {
+        if (localStorage.getItem('user') !== null) {
+             hideSplashScreen();
+        } else{
+           window.location.href = "http://localhost:8000/registration";
+        }
 
+    // });
+    console.log(localStorage);
 
     const savePostButton = document.getElementById("btnSubmit");
 
@@ -191,15 +200,6 @@ window.addEventListener('load', function () {
 
 
     });
-
-        if (localStorage.getItem('username') == null) {
-            hideSplashScreen();
-        } else{
-            showSplashScreen();
-        }
-
-
-        console.log(localStorage)
 
 });
 

@@ -18,7 +18,7 @@
                         <h3>Вход</h3>
                         <input type="text" name="username" class="form-control mb-1" placeholder="Логин">
                         <input type="password" name="password" class="form-control mb-1" placeholder="Пароль">
-                        <button type="submit" onClick='location.href="http://localhost:8000/index"' class="btn btn-outline-primary btn-block">Войти</button>
+                        <button type="submit" onClick='location.href="http://localhost:8000/index"'  class="btn btn-outline-primary btn-block">Войти</button>
                     </form>
                 </div>
             </div>
