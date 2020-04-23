@@ -33,7 +33,7 @@
                 <button class="h3" onClick='location.href="http://localhost:8000/registration"'>Зарегистрируйтесь</button>
             </div>
             <button
-                    id="login_button" type="button"  class="btn btn-secondary" style="padding: 15px;" ><h4> Войти</h4> </button>
+                    id="login_button" type="button" onClick='location.href="http://localhost:8000/login"' class="btn btn-secondary" style="padding: 15px;" ><h4> Войти</h4> </button>
 
         </div>
     </section>

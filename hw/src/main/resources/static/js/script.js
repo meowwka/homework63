@@ -178,7 +178,7 @@ window.addEventListener('load', function () {
         if (localStorage.getItem('user') !== null) {
              hideSplashScreen();
         } else{
-           window.location.href = "http://localhost:8000/registration";
+           showSplashScreen();
         }
 
     // });
